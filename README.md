@@ -1,1 +1,3 @@
-Website for TLTrans with some interactive capability made in JS with React and Vite, (Node backend coming soon)
+Website for TLTrans with some interactive capability.
+
+Vite, React, TailwindCSS, (Node backend coming soon).
