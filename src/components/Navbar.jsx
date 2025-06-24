@@ -12,7 +12,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="sticky top-0 z-50 py-5 bg-[#0d1117]/70 backdrop-blur-md shadow-md">
+        <nav className="sticky top-0 z-50 py-5 bg-transparent backdrop-blur-md shadow-none">
             <div className="container px-10 mx-auto relative text-base">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrink-0">
@@ -23,7 +23,7 @@ const Navbar = () => {
                             <li key={index}>
                                 <a 
                                     href={item.href} 
-                                    className="text-white hover:text-red-500 transform hover:scale-120 transition-transform duration-300"
+                                    className="text-white text-lg hover:text-red-500 transform hover:scale-120 transition-transform duration-300"
                                 >
                                     {item.label}
                                 </a>
