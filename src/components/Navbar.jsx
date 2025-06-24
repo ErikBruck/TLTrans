@@ -12,21 +12,18 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="sticky top-0 z-50 py-0 bg-darkBlueBlack backdrop-blur-lg">
-            <div className="container px-44 mx-auto relative text-base">
+        <nav className="sticky top-0 z-50 py-5 bg-[#0d1117]/70 backdrop-blur-md shadow-md">
+            <div className="container px-10 mx-auto relative text-base">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrink-0">
-                        <img className="h-24 w-24 mr-8" src={logo} alt="logo" />
-                        <span className="text-2xl tracking-tight">
-                            TL-TRANS OÜ
-                        </span>
+                        <img className="h-16 w-50 mr-8" src={logo} alt="logo" />
                     </div>
                     <ul className='hidden lg:flex ml-14 space-x-12'>
                         {navItems.map((item, index) => (
                             <li key={index}>
                                 <a 
                                     href={item.href} 
-                                    className="text-white hover:text-blue-600 transform hover:scale-120 transition-transform duration-300"
+                                    className="text-white hover:text-red-500 transform hover:scale-120 transition-transform duration-300"
                                 >
                                     {item.label}
                                 </a>
@@ -46,7 +43,7 @@ const Navbar = () => {
                                 <li key={index} className="py-4">
                                     <a 
                                         href={item.href} 
-                                        className="text-white hover:text-blue-600 transform hover:scale-120 transition-transform duration-300"
+                                        className="text-white hover:text-red-500 transform hover:scale-120 transition-transform duration-300"
                                     >
                                         {item.label}
                                     </a>
